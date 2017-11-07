@@ -30,3 +30,7 @@ class SinaItem(scrapy.Item):
     # 文章的内容
     article_content = scrapy.Field()
 
+    # 爬取时间
+    crawled = scrapy.Field()
+    # 爬虫名
+    spider = scrapy.Field()
